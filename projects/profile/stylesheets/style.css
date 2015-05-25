@@ -1,0 +1,44 @@
+body {
+	color: rgba(255,255,255,1);
+	max-width: 600px;
+	font-family: 'Architects Daughter', Georgia, cursive;
+	margin: 0 auto;
+}
+.left {
+	background: linear-gradient(left, rgba(51,51,255,0.9), rgba(51,51,255,0.4));
+	background: -webkit-linear-gradient(left, rgba(51,51,255,0.9), rgba(51,51,255,0.4));
+	background: -moz-linear-gradient(left, rgba(51,51,255,0.9), rgba(51,51,255,0.4));
+}
+.right {
+	background: linear-gradient(left, rgba(51,51,255,0.9), rgba(51,51,255,0.4));
+	background: -webkit-linear-gradient(left, rgba(51,51,255,0.9), rgba(51,51,255,0.4));
+	background: -moz-linear-gradient(left, rgba(51,51,255,0.9), rgba(51,51,255,0.4));
+}
+.project {
+	background-image: url("http://upload.wikimedia.org/wikipedia/commons/3/31/Great_white_shark_south_africa.jpg");
+	background-size: cover;
+	height: 663px;
+}
+h1 {
+	color: white;
+	font-size: 48px;
+	
+	font-weight: bold;
+	text-align: center;
+	max-width: auto;
+}
+h3 {
+	font-size: 36px; 
+}
+p {
+	font-size: 24px;
+}
+img {
+	border: 30px white;
+	border-radius: 30px;
+}
+li {
+	display: inline;
+}
+
+

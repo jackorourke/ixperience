@@ -1,0 +1,69 @@
+E1
+
+1. class 	--> Fixnum
+1.0.class 	--> Float
+-1.class 	--> Fixnum
+-1.1.class 	--> Float
+"hi".class 	--> String
+(7>6).class	--> TrueClass
+(6>7).class --> FalseClass
+>.class 	--> ERROR (No class?)
+
+x = ["a", "b"]
+x.class 			--> Array
+x.reverse.class 	--> Array
+x.join.class 		--> String
+x.length.class 		--> Fixnum
+x.class.class 		--> Class
+x.class.class.class --> Class
+
+---------------------------------------
+E2
+
+An instance of the FishClass class would be an
+individual fish swimming in the ocean.
+
+This class might have a eat() or swim() method
+
+----------------------------------------------
+E3
+
+-get_louder will return 20, which is a Fixnum
+-Steps:
+	1. Initializes the local variable loudness
+	   to a value of 20
+	2. Prints "IT'S SO LOUD" to the console
+	3. Evaluates loudness (essentially doing 
+	   nothing) and returns its value (20)
+-The value of loudness at the end of the program
+ is 10. This is because the variable declared
+ and used inside the method is not accessible
+ outside of the method, so the loudness variable
+ is the one that was originally initialized
+
+------------------------------------------------
+E4
+
+1. Strings
+2. Array
+3. It can take 0 arguments, 1 argument, or 2 arguments.
+   If you do one argument, it has to be the thing to
+   split on, not the maximum array length.
+4. The first argument should be a String or Regexp, which
+   stands for regular expression. The second is an integer,
+   or a Fixnum.
+5. "This is a string".split => ["This", "is", "a", "string"]
+   "This is a string".split(" ") => ["This", "is", "a", "string"]
+   "This is a string".split(,) => ["This is a string"]
+   "This is a string".split(" ", 3) => ["This", "is", "a string"]
+6. join
+
+-----------------------------------------------------
+E5
+
+pry
+
+-----------------------------------------------------
+E6
+
+See invert_hash.rb
