@@ -1,0 +1,18 @@
+E1
+
+1. When you type a URL and hit enter, your browser takes the URL and sends it to the Domain Name Server (DNS). 
+2. The DNS sends back the IP address associated with that URL. It essentially works like a hash, with the URL as the key and the IP address as the value.
+3. The browser uses that IP address to find the server and make an HTTP request.
+4. An HTTP request is the way by which servers and clients talk to each other. The request has a header (sort of like the 'metadata') and a message body (with some params)
+5. The request is processed at the server, which is a computer or collection of computers that can be located anywhere in the world.
+5. The server processes the HTTP request, and sends along the necessary parameters to the web application. In our case, this is Rails.
+6. The web application processes the parameters and gives html code back to the server.
+7. The server sends the response back to the browser, which is displayed for the user to see.
+
+
+E2
+
+1. When we go to this address, we get a 404 error message from GitHub that "There isn't a GitHub Pages site here"
+2. It means that the GitHub server could not find the page that fulfilled the HTTP request
+3. The error displays 404 because that is the HTTP standard response coe for such an error.
+4. Ruby still rocks! We just haven't created the necessary page yet.

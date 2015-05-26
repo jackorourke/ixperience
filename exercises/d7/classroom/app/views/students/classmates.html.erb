@@ -1,0 +1,11 @@
+<h1>This is the classmates page</h1>
+
+<h3>These are your classmates:<h3>
+
+<ul>
+	<% @mates.each do |mate| %>
+	<li><%=	mate %></li>
+	<% end %>
+</ul>
+
+<%= link_to 'Back', root_path %>

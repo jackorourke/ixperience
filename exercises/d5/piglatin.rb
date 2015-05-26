@@ -1,10 +1,17 @@
 def piglatinify(string)
-	vowels = "aeiou"
+	vowels = "aeiouAEIOU"
 	if string[0].downcase == string[0]
 		if !(vowels.include? string[0])
 			"#{string[1,string.length]}#{string[0]}ay"
+		else
+			"#{string}way"
+		end
 	else
-		"#{string[1].upcase}#{string[2,string.length]}#{string[0].downcase}ay"
+		if !(vowels.include? string[0])
+			"#{string[1].upcase}#{string[2,string.length]}#{string[0].downcase}ay"
+		else
+			"#{string}way"
+		end
 	end
 end
 
